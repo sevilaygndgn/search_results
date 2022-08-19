@@ -265,6 +265,7 @@ export default {
   background-color: #fff;
   width: 300px;
   padding: 13px;
+  border-radius: 16px;
   .items {
     background-color: #fff;
     display: flex;
@@ -279,17 +280,20 @@ export default {
     .details {
       display: grid;
       .title {
-        font-weight: bold;
+        font-weight: 600;
         font-size: 16px;
         line-height: 24px;
         color: #2c3e50;
       }
       .description {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 21px;
         color: #2c3e50;
       }
+    }
+    &:hover{
+        background-color: #f6f8ff;
     }
   }
 }
