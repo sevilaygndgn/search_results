@@ -1,0 +1,14 @@
+name: Jit.io Scan
+on:
+  push:
+    branches:
+      - main
+      - test
+jobs:
+  jit-io-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jitsecurity-controls/jit-github-action@master
+        with:
+          token: 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
