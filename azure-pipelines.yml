@@ -7,8 +7,7 @@ trigger:
 - master
 - test
 
-pool:
-  vmImage: ubuntu-latest
+pool: 'DESKTOP-PG1MFDI' 
 
 steps:
 - script: echo Hello, world!
