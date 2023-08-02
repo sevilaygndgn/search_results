@@ -7,7 +7,7 @@ trigger:
 - master
 - test
 
-pool: 'DESKTOP-PG1MFDI' 
+pool: 'TolgaLocal' 
 
 steps:
 - script: echo Hello, world!
