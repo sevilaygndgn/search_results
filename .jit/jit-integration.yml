@@ -1,0 +1,9 @@
+azure:
+  <integration_id>:
+    type: azure_account
+    name: "tolgahanakca"
+    auth:
+      client_id: "${{ jit_secrets.azure_client_id }}"
+      client_secret: "${{ jit_secrets.azure_client_secret }}"
+    tenant_id: "b9c04862-dedf-4c97-98ed-b5fb7dc0816a"
+    subscription_id: "${{ jit_secrets.azure_subscription_ids }}"
